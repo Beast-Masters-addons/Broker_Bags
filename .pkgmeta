@@ -1,0 +1,23 @@
+package-as: 'Broker_Bags'
+
+externals:
+  libs/LibStub:
+    url: https://repos.wowace.com/wow/libstub/trunk
+  libs/Ace3:
+    url: https://repos.wowace.com/wow/ace3/trunk/
+  libs/BM-utils:
+    url: https://github.com/Beast-Masters-addons/BM-utils.git
+    # tag: v2.0-alpha2
+    branch: ace_addon
+  libs/LibDBIcon:
+    url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
+  libs/LibDataBroker:
+    tag: v1.1.4
+    url: https://github.com/tekkub/libdatabroker-1-1.git
+
+
+ignore:
+  - tests
+  - libs/LibStub/tests
+
+enable-nolib-creation: yes

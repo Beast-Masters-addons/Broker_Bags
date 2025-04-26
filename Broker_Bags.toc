@@ -1,0 +1,19 @@
+## Interface: 110105, 40402, 11507
+## Title: Broker: Bags
+## Notes: A LibDataBroker display to show your bag space
+
+## Author: datagutten
+## SavedVariables: BrokerBagsDB
+## Version: @project-version@
+## X-Category: Inventory
+
+#@no-lib-strip@
+libs.xml
+#@end-no-lib-strip@
+
+addon\core.lua
+addon\utils.lua
+addon\bags.lua
+addon\options.lua
+addon\ldb.lua
+

@@ -28,10 +28,17 @@ end
 
 function ldb:OnEnable()
     self:RegisterEvent("BAG_UPDATE_DELAYED")
+    if addon.wow_major == 3 then
+        self:RegisterEvent("BAG_UPDATE")
+    end
     self:updateFillText()
 end
 
 function ldb:BAG_UPDATE_DELAYED()
+    self:updateFillText()
+end
+
+function ldb:BAG_UPDATE()
     self:updateFillText()
 end
 

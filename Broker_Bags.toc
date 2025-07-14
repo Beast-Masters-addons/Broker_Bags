@@ -6,6 +6,7 @@
 ## SavedVariables: BrokerBagsDB
 ## Version: @project-version@
 ## X-Category: Inventory
+## X-Wago-ID: QKywpaN7
 
 #@no-lib-strip@
 libs.xml
@@ -17,3 +18,6 @@ addon\bags.lua
 addon\options.lua
 addon\ldb.lua
 
+#@non-no-lib-strip@
+# ## Dependencies: Ace3, BM-utils, LibDBIcon
+#@end-non-no-lib-strip@

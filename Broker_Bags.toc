@@ -13,7 +13,6 @@ libs.xml
 #@end-no-lib-strip@
 
 addon\core.lua
-addon\utils.lua
 addon\bags.lua
 addon\options.lua
 addon\ldb.lua

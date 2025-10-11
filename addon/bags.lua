@@ -50,10 +50,14 @@ end
 
 ---Toggle all bags
 function bags:toggleBags()
-    if _G.ContainerFrame1:IsShown() then
-        _G.CloseAllBags()
+    if _G.ToggleAllBags then
+        _G.ToggleAllBags()
     else
-        _G.OpenAllBags()
+        if _G.ContainerFrame1:IsShown() then
+            _G.CloseAllBags()
+        else
+            _G.OpenAllBags()
+        end
     end
 end
 

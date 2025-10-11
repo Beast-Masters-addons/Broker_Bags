@@ -7,8 +7,7 @@ externals:
     url: https://repos.wowace.com/wow/ace3/trunk/
   libs/BM-utils:
     url: https://github.com/Beast-Masters-addons/BM-utils.git
-    # tag: v2.0-alpha2
-    branch: ace_addon
+    tag: v2.0
   libs/LibDBIcon:
     url: https://repos.wowace.com/wow/libdbicon-1-0/trunk/LibDBIcon-1.0
   libs/LibDataBroker:

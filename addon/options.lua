@@ -3,10 +3,8 @@ local options = _G['BrokerBags']:NewModule('BrokerBagsOptions', "AceEvent-3.0")
 ---@type BrokerBags
 local addon = _G['BrokerBags']
 
----@type BMUtils
-local utils = _G.LibStub("BM-utils-2")
 ---@type BMUtilsBasic
-local basic = utils:GetModule("BMUtilsBasic")
+local basic = _G.LibStub("BMUtilsBasic")
 
 local AceConfig = _G.LibStub("AceConfig-3.0")
 local AceConfigDialog = _G.LibStub("AceConfigDialog-3.0")

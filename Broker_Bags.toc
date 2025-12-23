@@ -1,4 +1,4 @@
-## Interface: 110205, 50501, 40402, 30300, 11507
+## Interface: 110207, 50503, 40402, 30300, 20505, 11508
 ## Title: Broker: Bags
 ## Notes: A LibDataBroker display to show your bag space
 

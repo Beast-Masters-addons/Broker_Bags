@@ -1,6 +1,17 @@
 ## Interface: 120105, 16001, 50503, 11509, 40402, 30300, 20506
 ## Title: Broker: Bags
 ## Notes: A LibDataBroker display to show your bag space
+## Category: Data Broker
+## Category-deDE: Datenbroker
+## Category-esES: Intermediario de Datos
+## Category-esMX: Intermediario de Datos
+## Category-frFR: Courtier de Données
+## Category-itIT: Data Broker
+## Category-koKR: 데이터 브로커
+## Category-ptBR: Corretor de Dados
+## Category-ruRU: Посредник данных
+## Category-zhCN: 数据管理
+## Category-zhTW: 資料管理
 
 ## Author: datagutten
 ## SavedVariables: BrokerBagsDB

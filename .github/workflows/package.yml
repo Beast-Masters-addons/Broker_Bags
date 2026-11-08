@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: WoW Packager
-        uses: BigWigsMods/packager@v2.5.1
+        uses: BigWigsMods/packager@v2.7.0
 
       - uses: actions/upload-artifact@v4
         with:

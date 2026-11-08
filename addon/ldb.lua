@@ -111,6 +111,6 @@ function ldb:OnClick(button)
     if button == "LeftButton" then
         bags:toggleBags()
     elseif button == "RightButton" then
-        _G.Settings.OpenToCategory(addon.title)
+        _G.Settings.OpenToCategory(options.options_id)
     end
 end

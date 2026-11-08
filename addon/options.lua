@@ -117,5 +117,5 @@ end
 function options:OnEnable()
     -- Register the config
     AceConfig:RegisterOptionsTable(addon.title, self:getOptionsTable())
-    AceConfigDialog:AddToBlizOptions(addon.title, addon.title)
+    self.options_frame, self.options_id = AceConfigDialog:AddToBlizOptions(addon.title, addon.title)
 end
